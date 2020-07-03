@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		E0B8478724AC7184003EB73D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8478624AC7184003EB73D /* AppDelegate.swift */; };
 		E0B8478924AC7184003EB73D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E0B8478824AC7184003EB73D /* GameScene.sks */; };
-		E0B8478B24AC7184003EB73D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E0B8478A24AC7184003EB73D /* Actions.sks */; };
 		E0B8478D24AC7184003EB73D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8478C24AC7184003EB73D /* GameScene.swift */; };
 		E0B8478F24AC7184003EB73D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8478E24AC7184003EB73D /* GameViewController.swift */; };
 		E0B8479224AC7184003EB73D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B8479024AC7184003EB73D /* Main.storyboard */; };
 		E0B8479424AC7188003EB73D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B8479324AC7188003EB73D /* Assets.xcassets */; };
 		E0B8479724AC7188003EB73D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B8479524AC7188003EB73D /* LaunchScreen.storyboard */; };
+		E0B8479F24ACF55D003EB73D /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E0B8479E24ACF55D003EB73D /* Explosion.sks */; };
+		E0B847A124ADF959003EB73D /* Background.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E0B847A024ADF959003EB73D /* Background.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0B8478324AC7184003EB73D /* MovingMarbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovingMarbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B8478624AC7184003EB73D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0B8478824AC7184003EB73D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E0B8478A24AC7184003EB73D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E0B8478C24AC7184003EB73D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E0B8478E24AC7184003EB73D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E0B8479124AC7184003EB73D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0B8479324AC7188003EB73D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B8479624AC7188003EB73D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0B8479824AC7188003EB73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B8479E24ACF55D003EB73D /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		E0B847A024ADF959003EB73D /* Background.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Background.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +64,14 @@
 			children = (
 				E0B8478624AC7184003EB73D /* AppDelegate.swift */,
 				E0B8478824AC7184003EB73D /* GameScene.sks */,
-				E0B8478A24AC7184003EB73D /* Actions.sks */,
 				E0B8478C24AC7184003EB73D /* GameScene.swift */,
+				E0B8479E24ACF55D003EB73D /* Explosion.sks */,
 				E0B8478E24AC7184003EB73D /* GameViewController.swift */,
 				E0B8479024AC7184003EB73D /* Main.storyboard */,
 				E0B8479324AC7188003EB73D /* Assets.xcassets */,
 				E0B8479524AC7188003EB73D /* LaunchScreen.storyboard */,
 				E0B8479824AC7188003EB73D /* Info.plist */,
+				E0B847A024ADF959003EB73D /* Background.fsh */,
 			);
 			path = MovingMarbles;
 			sourceTree = "<group>";
@@ -133,9 +136,10 @@
 			files = (
 				E0B8479224AC7184003EB73D /* Main.storyboard in Resources */,
 				E0B8478924AC7184003EB73D /* GameScene.sks in Resources */,
+				E0B8479F24ACF55D003EB73D /* Explosion.sks in Resources */,
 				E0B8479424AC7188003EB73D /* Assets.xcassets in Resources */,
 				E0B8479724AC7188003EB73D /* LaunchScreen.storyboard in Resources */,
-				E0B8478B24AC7184003EB73D /* Actions.sks in Resources */,
+				E0B847A124ADF959003EB73D /* Background.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J32C9YHJ44;
 				INFOPLIST_FILE = MovingMarbles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = coded.MovingMarbles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -313,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J32C9YHJ44;
 				INFOPLIST_FILE = MovingMarbles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = coded.MovingMarbles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
